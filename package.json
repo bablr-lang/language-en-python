@@ -1,0 +1,50 @@
+{
+  "name": "@bablr/language-en-python",
+  "version": "0.0.0",
+  "description": "A BABLR language for Python",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "type": "module",
+  "exports": {
+    ".": "./lib/grammar.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/**/*.js"
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "sideEffects": false,
+  "dependencies": {
+    "@bablr/agast-helpers": "0.11.1",
+    "@bablr/agast-vm-helpers": "0.11.1",
+    "@bablr/helpers": "0.26.2",
+    "@bablr/language-en-blank-space": "0.10.13"
+  },
+  "devDependencies": {
+    "@bablr/eslint-config-base": "github:bablr-lang/eslint-config-base#23b94fb3bdfdbc3ac7ed9cb58d7979d8f07dce2b",
+    "@qnighy/dedent": "0.1.1",
+    "bablr": "^0.11.11",
+    "enhanced-resolve": "^5.12.0",
+    "eslint": "^7.32.0",
+    "eslint-import-resolver-enhanced-resolve": "^1.0.5",
+    "eslint-plugin-import": "^2.27.5",
+    "expect": "29.7.0",
+    "mocha": "^10.4.0",
+    "prettier": "^2.0.5"
+  },
+  "keywords": [
+    "bablr-language",
+    "grammar",
+    "english"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bablr-lang/language-en-python.git"
+  },
+  "homepage": "https://github.com/bablr-lang/language-en-python",
+  "author": "Conrad Buck <conartist6@gmail.com>",
+  "license": "MIT"
+}
