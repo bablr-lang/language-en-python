@@ -18,15 +18,15 @@
   },
   "sideEffects": false,
   "dependencies": {
-    "@bablr/agast-helpers": "0.11.1",
-    "@bablr/agast-vm-helpers": "0.11.1",
-    "@bablr/helpers": "0.26.2",
-    "@bablr/language-en-blank-space": "0.10.13"
+    "@bablr/agast-helpers": "0.11.3",
+    "@bablr/agast-vm-helpers": "0.11.3",
+    "@bablr/helpers": "0.26.4",
+    "@bablr/language-en-blank-space": "0.11.1"
   },
   "devDependencies": {
     "@bablr/eslint-config-base": "github:bablr-lang/eslint-config-base#23b94fb3bdfdbc3ac7ed9cb58d7979d8f07dce2b",
     "@qnighy/dedent": "0.1.1",
-    "bablr": "^0.11.11",
+    "bablr": "^0.12.3",
     "enhanced-resolve": "^5.12.0",
     "eslint": "^7.32.0",
     "eslint-import-resolver-enhanced-resolve": "^1.0.5",
